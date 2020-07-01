@@ -1,0 +1,296 @@
+@charset "UTF-8";
+body {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  margin: 0;
+}
+
+body nav {
+  text-align: center;
+  padding: 5px;
+}
+
+body nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+body header {
+  background-image: url("../images/main.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+@media screen and (max-width: 1025px) {
+  body .media_section {
+    margin: 20px;
+  }
+  body .media_section .column_1 {
+    width: 60%;
+  }
+  body .media_section .column_1 div img {
+    width: 250px;
+  }
+  body .media_section .column_1 div .date {
+    font-size: 11px;
+  }
+  body .media_section .column_1 div h5 {
+    font-size: 14px !important;
+  }
+  body .media_section .column_1 div p {
+    font-size: 12px;
+  }
+  body .media_section .column_2 {
+    width: 30%;
+  }
+}
+
+body section {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+
+body section .column_1 {
+  width: 70%;
+  float: left;
+  padding: 15px;
+}
+
+body section .column_1 .blog {
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+body section .column_1 .blog img {
+  float: left;
+  width: 250px;
+  padding-right: 10px;
+}
+
+body section .column_1 .blog .date {
+  color: #333;
+  font-size: 12px;
+  margin: 0;
+}
+
+body section .column_1 .blog h5 {
+  font-size: 18px;
+  margin: 0;
+}
+
+body section .column_1 .blog .imp {
+  color: #E7BA2F;
+}
+
+body section .column_1 .blog p {
+  font-size: 14px;
+}
+
+body section .column_1 .blog:hover {
+  background-color: #EFEFEF;
+  -webkit-box-shadow: 6px 0px 8px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 6px 0px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+body section .column_1 .page_btn {
+  padding: 8px;
+  width: 40%;
+  background-color: #333;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+body section .column_1 .page_btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body section .column_1 .page_btn i {
+  color: #ffffff;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+body section .column_1 .page_btn:hover {
+  opacity: 0.8;
+}
+
+body section .column_2 {
+  width: 25%;
+  float: right;
+  padding: 15px;
+  background-color: #EFEFEF;
+}
+
+body section .column_2 .f_row {
+  background-color: #fff;
+  position: relative;
+  height: 400px;
+  cursor: pointer;
+}
+
+body section .column_2 .f_row p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body section .column_2 .f_row p a {
+  text-decoration: none;
+  color: #333;
+}
+
+body section .column_2 .s_row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+body section .column_2 .s_row .h_title {
+  border-bottom: 2px solid #333;
+}
+
+body section .column_2 .s_row .h_title h5 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
+
+body section .column_2 .s_row .reco_img {
+  margin-top: 10px;
+  margin-bottom: 4%;
+  cursor: pointer;
+}
+
+body section .column_2 .s_row .reco_img img {
+  width: 120px;
+  float: left;
+  margin-right: 5px;
+}
+
+body section .column_2 .s_row .reco_img p {
+  font-size: 12px;
+}
+
+body section .column_2 .s_row .reco_img .date {
+  font-size: 11px;
+  color: #333333;
+}
+
+body section .column_2 .s_row .reco_img:hover {
+  opacity: 0.8;
+  background-color: #dddddd;
+}
+
+body section .column_2 .t_row {
+  background-color: #666666;
+  height: 100px;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+body section .column_2 .t_row p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+body section .column_2 .t_row p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body section .column_2 .t_row:hover {
+  opacity: 0.8;
+}
+
+@media screen and (width: 1024px) {
+  body .scroll-up {
+    position: relative;
+    margin-top: 2050px !important;
+  }
+}
+
+@media screen and (width: 1440px) {
+  body .scroll-up {
+    position: relative;
+    margin-top: 1870px !important;
+  }
+}
+
+@media screen and (width: 1920px) {
+  body .scroll-up {
+    position: relative;
+    margin-top: 1750px !important;
+  }
+}
+
+@media screen and (width: 2560px) {
+  body .scroll-up {
+    position: relative;
+    margin-top: 1750px !important;
+  }
+}
+
+body .scroll-up {
+  position: relative;
+  margin-top: 1900px;
+}
+
+body .scroll-up i {
+  margin-left: 260px;
+  color: #333;
+  font-size: 32px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+body .scroll-up i:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+body footer {
+  clear: both;
+  position: relative;
+  padding: 8px;
+  margin-top: -200px;
+  background-color: #000000;
+}
+
+body footer div {
+  text-align: center;
+}
+
+body footer div a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  margin-right: 60%;
+}
+
+body footer div p {
+  color: #fff;
+  font-size: 13px;
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */
