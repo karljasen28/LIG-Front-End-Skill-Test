@@ -25,7 +25,7 @@ body header {
   padding-bottom: 2%;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (width: 1024px) {
   body .media_section {
     margin: 20px;
   }
@@ -46,6 +46,12 @@ body header {
   }
   body .media_section .column_2 {
     width: 30%;
+  }
+}
+
+@media screen and (width: 1366px) {
+  body .media_section {
+    margin: 10px;
   }
 }
 

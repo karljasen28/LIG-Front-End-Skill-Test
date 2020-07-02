@@ -28,7 +28,7 @@ header {
 
 
 
-@media screen and (max-width: 1025px) {
+@media screen and (width: 1024px) {
     .media_section {
         margin: 20px;
         .column_1 {
@@ -51,6 +51,12 @@ header {
         .column_2 {
             width: 30%;
         }
+    }
+}
+
+@media screen and (width: 1366px) {
+    .media_section {
+        margin: 10px;
     }
 }
 // section
